@@ -11,20 +11,6 @@
 |
 */
 
-
-//Use Language route
-Route::post('/language-chooser', 'LanguageController@changeLanguage');
-	
-Route::post('/language/', array (
-
-	'before' => 'csrf',
-	'as' => 'language-chooser',
-	'uses' => 'LanguageController@changeLanguage',
-
-	)
-);
-	
-
 Route::group([], function() {
 
 	Route::match(['get', 'post'], '/', ['uses'=>'IndexController@execute', 'as'=>'home']);

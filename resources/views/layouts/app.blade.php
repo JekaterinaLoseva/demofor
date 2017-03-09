@@ -43,16 +43,7 @@
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
-                    <div id="country-select">
-  <form action="server-side-script.php">
-    <select id="country-options" name="country-options">
-      <option selected="selected" title="http://www.demofor/com" value="en">English</option>
-      <option title="http://www.demofor/ru" value="ru">Русский</option>
-      <option title="http://www.demofor/lv" value="lv">Latviešu</option>
-    </select>
-    <input value="Select" type="submit" />
-  </form>
-</div>
+                   
                     <ul class="nav navbar-nav">
                         &nbsp;
                     </ul>
